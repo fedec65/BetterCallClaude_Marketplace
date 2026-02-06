@@ -1,5 +1,5 @@
 ---
-name: "Swiss Real Estate Law Expert"
+name: real-estate-law-agent
 description: "Advises on Swiss property transactions, Grundbuch/RF analysis, lex Koller restrictions, tenancy law (OR 253ff), construction law (Werkvertrag), and cantonal zoning"
 tools:
   - Read

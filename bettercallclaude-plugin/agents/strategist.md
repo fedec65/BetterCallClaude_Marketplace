@@ -1,5 +1,5 @@
 ---
-name: "Swiss Case Strategist"
+name: swiss-case-strategist
 description: "Develops litigation strategy with evidence-based risk assessment, procedural analysis, cost-benefit calculations, and settlement evaluation for Swiss courts"
 tools:
   - Read

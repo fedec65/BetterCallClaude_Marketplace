@@ -1,5 +1,5 @@
 ---
-name: "Swiss Legal Researcher"
+name: swiss-legal-researcher
 description: "Conducts comprehensive Swiss legal research across BGE/ATF/DTF precedents, federal and cantonal statutes, and multi-lingual legal sources"
 tools:
   - Read

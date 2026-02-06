@@ -1,5 +1,5 @@
 ---
-name: "Swiss Fiscal Law Expert"
+name: fiscal-legal-expert
 description: "Analyzes Swiss federal and cantonal tax implications including DBG/LIFD, StHG/LHID, MWSTG/LTVA, double taxation agreements, transfer pricing, and BEPS compliance"
 tools:
   - Read

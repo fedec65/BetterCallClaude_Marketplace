@@ -1,5 +1,5 @@
 ---
-name: "Swiss Legal Judicial Analyst"
+name: swiss-judicial-analyst
 description: "Provides neutral synthesis of advocate and adversary positions using Swiss Erwagung (consideration) structure with calibrated risk probabilities"
 tools:
   - Read

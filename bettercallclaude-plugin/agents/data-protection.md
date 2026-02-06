@@ -1,5 +1,5 @@
 ---
-name: "Swiss Data Protection Specialist"
+name: data-protection-specialist
 description: "Analyzes compliance with nDSG/FADP, GDPR adequacy, cantonal data protection laws (IDG/KDSG/LIPAD), and conducts DPIA and transfer impact assessments"
 tools:
   - Read

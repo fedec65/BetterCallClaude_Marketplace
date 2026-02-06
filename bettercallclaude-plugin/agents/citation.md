@@ -1,5 +1,5 @@
 ---
-name: "Swiss Citation Specialist"
+name: citation-specialist
 description: "Verifies, formats, and converts Swiss legal citations across BGE/ATF/DTF, cantonal decisions, and statutory references in DE/FR/IT"
 tools:
   - Read

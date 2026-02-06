@@ -1,5 +1,5 @@
 ---
-name: "Swiss Legal Workflow Orchestrator"
+name: swiss-legal-workflow-orchestrator
 description: "Coordinates multi-agent legal workflows including due diligence pipelines, litigation preparation, contract lifecycle management, and parallel agent execution with data passing"
 tools:
   - Read

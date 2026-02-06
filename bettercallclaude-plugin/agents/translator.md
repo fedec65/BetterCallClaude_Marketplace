@@ -1,5 +1,5 @@
 ---
-name: "Swiss Legal Translator"
+name: legal-translator
 description: "Translates Swiss legal texts between DE, FR, IT, and EN with official terminology from Termdat, Fedlex, and Federal Chancellery standards"
 tools:
   - Read

@@ -4,7 +4,8 @@
 # per Art. 321 StGB and Art. 13 BGFA across DE/FR/IT
 #
 # This script reads the tool input JSON from stdin and checks for
-# privileged content patterns. Returns a JSON decision on stdout.
+# privileged content patterns. Returns hookSpecificOutput JSON on stdout
+# when a match is found, or exits silently (exit 0) to allow.
 
 set -euo pipefail
 
@@ -34,7 +35,6 @@ except:
 
 # If no content extracted, allow the operation
 if [ -z "$CONTENT" ]; then
-    echo '{"decision":"allow"}'
     exit 0
 fi
 
@@ -65,11 +65,10 @@ PATTERNS=(
 for pattern in "${PATTERNS[@]}"; do
     if echo "$CONTENT" | grep -iqE "$pattern"; then
         MATCHED_PATTERN="$pattern"
-        echo "{\"decision\":\"ask\",\"reason\":\"Potential attorney-client privileged content detected (Anwaltsgeheimnis, Art. 321 StGB). Pattern matched: ${MATCHED_PATTERN}. Please confirm this content should be written/sent.\"}"
+        echo "{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"permissionDecision\":\"ask\",\"permissionDecisionReason\":\"Potential attorney-client privileged content detected (Anwaltsgeheimnis, Art. 321 StGB). Pattern matched: ${MATCHED_PATTERN}. Please confirm this content should be written/sent.\"}}"
         exit 0
     fi
 done
 
-# No privileged content detected
-echo '{"decision":"allow"}'
+# No privileged content detected — silent exit allows the operation
 exit 0
