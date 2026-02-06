@@ -1,0 +1,11 @@
+{
+  "name": "BetterCallClaude Marketplace",
+  "description": "Self-hosted marketplace for the BetterCallClaude Swiss Legal Intelligence plugin",
+  "plugins": [
+    {
+      "name": "bettercallclaude",
+      "source": "./bettercallclaude-plugin",
+      "description": "Swiss Legal Intelligence Framework — BGE/ATF/DTF precedent research, multi-lingual legal drafting, case strategy, and citation verification for all 26 Swiss cantons"
+    }
+  ]
+}
