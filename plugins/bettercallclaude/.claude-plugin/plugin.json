@@ -1,29 +1,8 @@
 {
   "name": "bettercallclaude",
-  "description": "Swiss Legal Intelligence Framework — 17 specialized agents, 15 commands, 9 skills, and 5 MCP servers for BGE/ATF/DTF precedent research, multi-lingual legal analysis (DE/FR/IT/EN), case strategy with risk assessment, adversarial analysis, compliance, data protection, fiscal law, corporate law, real estate, legal drafting, and citation verification across all 26 Swiss cantons. Includes Anwaltsgeheimnis (Art. 321 StGB) privacy protection.",
   "version": "2.0.0",
+  "description": "Swiss Legal Intelligence — BGE/ATF/DTF precedent research, case strategy, legal drafting, and citation verification across all 26 Swiss cantons with Anwaltsgeheimnis privacy protection.",
   "author": {
     "name": "Federico Cesconi"
-  },
-  "repository": "https://github.com/fedec65/BetterCallClaude_Marketplace",
-  "license": "AGPL-3.0",
-  "keywords": [
-    "swiss-law",
-    "legal-research",
-    "BGE",
-    "ATF",
-    "DTF",
-    "litigation",
-    "legal-drafting",
-    "citation-verification",
-    "multilingual",
-    "anwaltsgeheimnis",
-    "adversarial-analysis",
-    "compliance",
-    "data-protection",
-    "corporate-law",
-    "fiscal-law",
-    "real-estate",
-    "legal-translation"
-  ]
+  }
 }
