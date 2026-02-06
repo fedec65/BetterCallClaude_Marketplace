@@ -28,3 +28,6 @@ npm-debug.log*
 tmp/
 temp/
 *.tmp
+
+# Project instructions (local only)
+CLAUDE.md
