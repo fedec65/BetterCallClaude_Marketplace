@@ -127,7 +127,7 @@ Federico Cesconi
 
 ## License
 
-See the repository for license terms.
+AGPL-3.0 -- See [LICENSE](LICENSE) for full terms.
 
 ---
 
