@@ -278,7 +278,7 @@ GitHub: [fedec65/BetterCallClaude_Marketplace](https://github.com/fedec65/Better
 
 ## License
 
-AGPL-3.0 -- See [LICENSE](../LICENSE) for full terms.
+AGPL-3.0 -- See [LICENSE](../../LICENSE) for full terms.
 
 ---
 
